@@ -14,6 +14,7 @@ HONEYPOT_NAME=beeswax
 install_dependencies() {
 	apt-get update
 	apt-get -y install docker.io tcpdump gcc golang git supervisor python-pip
+	apt-get -y install build-essential
 	pip install docker-compose
 }
 
